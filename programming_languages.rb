@@ -5,5 +5,6 @@ def reformat_languages(languages)
     key.each do |language, type|
       hash[language] = type
       hash[language] = {:style => key}
+    end
   end
 end
