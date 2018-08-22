@@ -8,5 +8,4 @@ def reformat_languages(languages)
       hash[language] = {:style => [key]}
     end
   end
-  return
 end
